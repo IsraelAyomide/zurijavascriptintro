@@ -23,4 +23,4 @@
    let value1 =+prompt("Enter value 1");
    let operation =prompt("Enter operation");
    let value2 =+prompt("Enter value 2");
-   calculator(value1,value2, operation);
+   calculator(value1,value2, op);
