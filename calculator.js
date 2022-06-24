@@ -1,22 +1,22 @@
- function calculator(a, b, operation){
-            switch (operation){
+ function calculator(a, b, op){
+            switch (op){
               case '+':
-                console.log(a + b);
+                alert(a + b);
                 
                  case '-':
-       console.log(a - b);
+       alert(a - b);
        break;
        
        case '*':
-       console.log(a*b);
+       alert(a*b);
        break;
        
        case '/':
-       console.log(a / b);
+       alert(a / b);
        break;
        
        default:
-       console.log("Invalid input");
+       alert("Invalid input");
             }   
      
    }
